@@ -1,0 +1,170 @@
+html,body {
+	height: 100%;
+}
+#imglogo img { 
+  width: 150px;
+  height: 150px;
+}
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#2e2e2e;
+  height: 1px;
+}
+
+body.my-login-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+.card-img-top {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.my-login-page .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin: 40px auto;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+	position: relative;
+	z-index: 1;
+}
+
+.my-login-page .brand img {
+	width: 100%;
+}
+
+.my-login-page .card-wrapper {
+	width: 400px;
+}
+
+.my-login-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.my-login-page .card.fat {
+	padding: 10px;
+}
+
+.my-login-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+	border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.my-login-page .footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.toplogo {
+    margin-top: 5px;
+}
+
+.toplogo img {
+    height : 10%;
+    width : 40%;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
